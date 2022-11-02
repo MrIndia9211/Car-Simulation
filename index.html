@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <title>Car Simulation Game</title>  
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script
+  src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
+  <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+  <script src="https://recast-api.donmccurdy.com/aframe-inspector-plugin-recast.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+  <script src="./CarMovement.js"></script>
+  <body>
+    <a-scene id="scene">
+        <!--Assets-->
+        <a-assets>
+            <a-asset-item id="Car" src="./assets/racing_car/scene.gltf"></a-asset-item>
+            <a-assets-item id="track" src="./assets/track7/scene.gltf"></a-assets-item>
+            <a-assets-item id="track2" src="./assets/track1/scene.gltf"></a-assets-item>
+            <a-assets-item id="arrow" src="./assets/sign3/scene.gltf"></a-assets-item>
+            <a-assets-item id="tree" src="./assets/tree/scene.gltf"></a-assets-item>
+
+        </a-assets>
+        <!--Ground-->
+        <a-plane id="ground" repeat="5 5" position="0 1 0" rotation="-90 0 0" height="200" width="200" color="green"
+        static-body visible="true">
+      </a-plane>
+      <!--Light-->
+     <a-entity light="type: ambient; color: white; intensity:0.5"></a-entity>
+      <a-entity light="type: directional; color: #EEE; intensity: 1" position="-1 1 0"></a-entity>
+      <!--Camera-->
+      <a-entity id="camera" camera position="7 1.6 7" look-controls="pointerLockEnabled: false" wasd-controls>
+        
+        <a-cursor></a-cursor>
+   
+      </a-entity>
+      <a-entity  carmovement ></a-entity>
+      <a-entity  id="Car"gltf-model="#Car" position="7 1.2 7" scale="0.1 0.1 0.1" rotation="0 180 0"></a-entity>
+      <!--track1-->
+      <a-entity id="track1 model" gltf-model="#track" position="0 1 0" scale="0.1 0.1 0.1" static-body></a-entity>
+      <!--arrow-->
+      <a-entity id="arrow model" gltf-model="#arrow" position="7 1.8 -5" scale="7 7 7" rotation="0 180 0"></a-entity>
+      <!-- tree-->
+      <a-entity id="tree model" gltf-model="#tree" position="4 1 7" scale="0.01 0.01 0.01" ></a-entity>
+      <a-entity id="tree model" gltf-model="#tree" position="4 1 1" scale="0.01 0.01 0.01" ></a-entity>
+
+
+      
+    
+      
+    </a-scene>
+  </body>
+</html>

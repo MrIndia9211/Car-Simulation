@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stop Sign with Direction Arrow
+* source:	https://sketchfab.com/3d-models/stop-sign-with-direction-arrow-8311b144332746cc823c10adba9b6e92
+* author:	anastasiao (https://sketchfab.com/anastasiao)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stop Sign with Direction Arrow" (https://sketchfab.com/3d-models/stop-sign-with-direction-arrow-8311b144332746cc823c10adba9b6e92) by anastasiao (https://sketchfab.com/anastasiao) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Racing Car
+* source:	https://sketchfab.com/3d-models/racing-car-7ec6f90eb17c4d8d990fb8d9a7ae9ae9
+* author:	Denis Shikunov (https://sketchfab.com/felo3113)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Racing Car" (https://sketchfab.com/3d-models/racing-car-7ec6f90eb17c4d8d990fb8d9a7ae9ae9) by Denis Shikunov (https://sketchfab.com/felo3113) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
